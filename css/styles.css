@@ -139,3 +139,27 @@ header {
     left: 0;
     border: 2px dashed #f08820;
 }
+
+/* íconos de redes sociales de inicio */
+.row_box ul li:nth-child(1) h2:before {
+    content: "";
+}
+
+.row_box ul li:nth-child(2) h2:after {
+    content: "";
+}
+
+.row_box ul li:nth-child(2) {
+    background: #f08820;
+}
+
+.column_box a {
+    color: #ffffff; /* Cambia el color según tu diseño */
+    font-size: 24px; /* Ajusta el tamaño del ícono */
+    text-decoration: none; /* Para eliminar el subrayado */
+    margin-right: 10px; /* Espacio entre íconos */
+}
+
+.column_box a:hover {
+    color: #007bff; /* Cambia el color al pasar el mouse */
+}

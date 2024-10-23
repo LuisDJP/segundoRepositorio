@@ -258,6 +258,41 @@
                 </div>
             </div>
 
+
+            <div id="container_module_box">
+                <div class="center">
+                    <div class="row_box">
+                        <ul>
+                            <li>
+                                <div class="column_box">
+                                    <h2>Facebook</h2>
+                                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                                        <i class="fab fa-facebook-square"></i> <!-- Ícono de Facebook -->
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="column_box">
+                                    <h2>Twitter</h2>
+                                    <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                                        <i class="fab fa-twitter"></i> <!-- Ícono de Twitter -->
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="column_box">
+                                    <h2>Instagram</h2>
+                                    <a href="https://www.twitter.com" target="_blank" aria-label="Instagram">
+                                        <i class="fab fa-instagram"></i> <!-- Ícono de Twitter -->
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            
         </section>
     </main>
 </body>
