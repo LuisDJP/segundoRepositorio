@@ -385,75 +385,75 @@
                 </div>
             </div>
 
-            <div id="container_module_form">
-    <div class="center">
-        <div class="column_form">
-            <div class="row_content_form">
-                <i>Contáctenos:</i>
-            </div>
-            <div class="contact_form">
-                <ul>
-                    <li>
-                        <div class="content_description">
-                            <p>Estamos pendientes de ti</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content_ubication">
-                            <p><i class="ubication"></i>Av. Arequipa 4080, Miraflores</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="content_phone">
-                            <i class="phone"></i><a href="tel:(+51) 965 080 929">(+51) 965 080 929</a>
-                        </div>
-                        <div class="content_email">
-                            <a href="mailto:consultas@cvmabogados.com.pe"><i class="email"></i>consultas@cvmabogados.com.pe</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="row_form">
-                <!-- FORMULARIO -->
-                <form action="procesar_formulario.php" method="post" class="contact-form" novalidate>
-                    <p>
-                        <input size="40" class="form-control" placeholder="Nombre y apellido" type="text" name="Nombre_Apellido" required>
-                    </p>
-                    <p>
-                        <input size="40" class="form-control" placeholder="Correo electrónico" type="email" name="Correo" required>
-                    </p>
-                    <p>
-                        <input size="40" class="form-control" placeholder="Celular" type="tel" name="Celular" required>
-                    </p>
-                    <p>
-                        <select class="form-control" name="Consulta" required>
-                            <option value="">Seleccione una consulta</option>
-                            <option value="Derecho Penal">Derecho Penal</option>
-                            <option value="Contrataciones con el Estado">Contrataciones con el Estado</option>
-                            <option value="Derecho Administrativo">Derecho Administrativo</option>
-                            <option value="Derecho Civil">Derecho Civil</option>
-                            <option value="Derecho Constitucional">Derecho Constitucional</option>
-                            <option value="Derecho de Familia">Derecho de Familia</option>
-                            <option value="Derecho de Herencias, Testamentos y Sucesiones">Derecho de Herencias, Testamentos y Sucesiones</option>
-                            <option value="Derecho del Consumidor">Derecho del Consumidor</option>
-                            <option value="Derecho Laboral">Derecho Laboral</option>
-                        </select>
-                    </p>
-                    <p>
-                        <textarea cols="40" rows="10" class="form-control" placeholder="Mensaje" name="Mensaje" required></textarea>
-                    </p>
-                    <p>
-                        <input class="form-control" type="submit" value="Enviar">
-                    </p>
-                </form>
-                <!-- FORMULARIO -->
-            </div>
-        </div>
-    </div>
-</div>
 
+    <div id="container_module_form">
+                <div class="center">
+                    <div class="column_form">
+                        <div class="row_content_form">
+                            <i>Contáctenos:</i>
+                            <h3>Estamos pendientes de ti</h3>
+                        </div>
+                        <div class="contact_form">
+                            <ul>
+                                <li>
+                                    <div class="content_ubication">
+                                        <p><i class="ubication"></i>Av. Arequipa 4080, Miraflores</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content_phone">
+                                        <i class="phone"></i><a href="tel:(+51) 965 080 929">(+51) 965 080 929</a>
+                                    </div>
+                                    
+                                </li>
+                                <li>
+                                    <div class="content_email">
+                                        <a href="mailto:consultas@cvmabogados.com.pe"><i class="email"></i>consultas@djpabogados.com</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row_form">
+                            <!-- FORMULARIO -->
+                            <form action="procesar_formulario.php" method="post" class="contact-form" novalidate>
+                                <p>
+                                    <input size="40" class="form-control" placeholder="Nombre y apellido" type="text" name="Nombre_Apellido" required>
+                                </p>
+                                <p>
+                                    <input size="40" class="form-control" placeholder="Correo electrónico" type="email" name="Correo" required>
+                                </p>
+                                <p>
+                                    <input size="40" class="form-control" placeholder="Celular" type="tel" name="Celular" required>
+                                </p>
+                                <p>
+                                    <select class="form-control" name="Consulta" required>
+                                        <option value="">Seleccione un servicio</option>
+                                        <option value="Derecho Penal">Derecho Penal</option>
+                                        <option value="Contrataciones con el Estado">Contrataciones con el Estado</option>
+                                        <option value="Derecho Administrativo">Derecho Administrativo</option>
+                                        <option value="Derecho Civil">Derecho Civil</option>
+                                        <option value="Derecho Constitucional">Derecho Constitucional</option>
+                                        <option value="Derecho de Familia">Derecho de Familia</option>
+                                        <option value="Derecho de Herencias, Testamentos y Sucesiones">Derecho de Herencias, Testamentos y Sucesiones</option>
+                                        <option value="Derecho del Consumidor">Derecho del Consumidor</option>
+                                        <option value="Derecho Laboral">Derecho Laboral</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <textarea cols="40" rows="10" class="form-control" placeholder="Mensaje" name="Mensaje" required></textarea>
+                                </p>
+                                <p>
+                                    <input class="form-control" type="submit" value="Enviar">
+                                </p>
+                            </form>
+                            <!-- FORMULARIO -->
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                    
+           
+    
         </section>
     </main>
 </body>

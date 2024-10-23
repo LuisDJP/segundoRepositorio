@@ -268,3 +268,37 @@ header {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* Formulario */
+
+.row_content_form i {
+    font-size: 2em; /* Aumenta el tamaño del texto */
+    font-weight: normal; /* Mantén el peso regular */
+    line-height: 1em; /* Altura de línea */
+    color: #f08820; /* Mantén el color */
+}
+
+.row_content_form h3 {
+    font-size: 1.4em; /* Aumenta el tamaño del texto */
+    font-weight: normal; /* Mantén el peso regular */
+    line-height: 1em; /* Altura de línea */
+    color: #ffffff; /* Mantén el color */
+}
+
+
+.row_form p {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.row_form p input[type="submit"] {
+    font: 1em / 1em light;
+    color: #fff;
+    background: #f08820;
+    padding: 0.57em 10em;
+    display: table;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+}
