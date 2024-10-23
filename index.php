@@ -451,10 +451,40 @@
                     </div>
                 </div>
             </div>
-
-           
     
         </section>
+
+        <footer>	
+	
+        <div id="container_module_footer">
+    <div class="column_menu_footer">
+        <ul>
+            <li>
+                <h3>Sobre Nosotros</h3>
+                <p>Somos una empresa comprometida con ofrecerte los mejores servicios legales.</p>
+            </li>
+            <li>
+                <h3>Contacto</h3>
+                <p><i class="phone"></i><a href="tel:01 555 5555">(01) 555 5555</a></p>
+                <p><i class="phone"></i><a href="tel:+51965080929">(+51) 965 080 929</a></p>
+                <p><i class="email"></i><a href="mailto:consultas@djpabogados.com.pe">consultas@djpabogados.com.pe</a></p>
+            </li>
+            <li>
+                <h3>Redes Sociales</h3>
+                <p>
+                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a><br>
+                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br>
+                    <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+            
+        </footer>
+
+        
     </main>
 </body>
 

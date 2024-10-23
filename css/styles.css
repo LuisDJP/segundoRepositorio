@@ -276,6 +276,9 @@ header {
     font-weight: normal; /* Mantén el peso regular */
     line-height: 1em; /* Altura de línea */
     color: #f08820; /* Mantén el color */
+    padding: 0;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 .row_content_form h3 {
@@ -301,4 +304,32 @@ header {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     margin: 0 auto;
+}
+
+/* Foroter */
+
+#container_module_footer {
+    width: 100%;
+    background: #1D3447;
+    padding: 4em 0 2em 0;
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar las columnas horizontalmente */
+    gap: 2em; /* Espacio entre las columnas */
+}
+
+.column_menu_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar el contenido dentro de cada columna */
+    color: white;
+}
+
+.column_menu_footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column_menu_footer a {
+    margin-bottom: 1em;
+    color: #f08820;
 }
