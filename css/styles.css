@@ -1,0 +1,141 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif; /* Cambia la fuente según prefieras */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #f8f8f8; /* Color de fondo del encabezado */
+    padding: 20px 0;
+}
+
+.column_rightUs h3:before {
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 3px;
+    background: #f08820;
+    bottom: 1em;
+    left: 0;
+}
+
+/* Estilos para el logo */
+.column_logo img {
+    width: 130px; /* Ajusta el tamaño del logo aquí */
+}
+
+.column_rightUs h2 {
+    color: #f08820; /* Cambia este valor por el color que desees */
+}
+
+.column_rightUs h3::after {
+    content: #f08820; /* Esto eliminará cualquier contenido generado, como una línea */
+}
+
+/* Estilos del menú */
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline-block; /* Cambia a block si prefieres un menú vertical */
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
+}
+
+.menu-item a {
+    color: #333 !important; /* Cambia este color por el que desees */
+}
+
+.menu-item a:hover {
+    color: #f08820 !important; /* Color al pasar el mouse */
+}
+
+/* Estilos para el botón "CONOCE MÁS" */
+.btn_us a {
+    background-color: #f08820; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Quitar subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn_us i {
+    color: #f08820 !important; /* Cambia este valor por el color que desees */
+    margin-right: 5px; /* Ajusta el margen según lo que necesites */
+}
+
+.btn_us a:hover {
+    background-color: #333; /* Color del botón al pasar el mouse */
+}
+
+/* Estilos para la sección "NOSOTROS" */
+#container_module_us {
+    padding: 40px 20px; /* Espaciado para la sección */
+}
+
+
+/* Estilos para el soporte */
+.box-support {
+    background-color: none; /* Color de fondo del soporte */
+    padding: 20px;
+}
+
+/* Ajustes para la imagen en el slider */
+#container_module_slider img {
+    width: 100%; /* Hacer que la imagen ocupe el ancho completo */
+    height: auto; /* Mantener proporciones */
+}
+
+.row_search a {
+    background-color: #f08820; /* Cambia este color por el que desees */
+    color: #fff; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.row_search a:hover {
+    background-color: #333; /* Color al pasar el mouse */
+}
+
+
+#container_module_services h2 {
+    color: #f08820; /* Cambia 'black' por el color que desees */
+}
+
+.content_image_services a {
+    background-color: #f08820; /* Cambia 'blue' por el color de fondo que desees */
+    color: white; /* Cambia 'white' por el color del texto que desees */
+    padding: 10px 20px; /* Ajusta el espaciado alrededor del texto */
+    text-decoration: none; /* Para eliminar el subrayado */
+    border-radius: 5px; /* Para bordes redondeados, opcional */
+}
+
+.content_image_services a:hover {
+    background-color: darkblue; /* Cambia 'darkblue' por el color al pasar el mouse */
+}
+
+.row_services span:before {
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 3px;
+    background: #f08820;
+    bottom: -1em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.group_services ul li:before {
+    content: "";
+    position: absolute;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    top: 0;
+    left: 0;
+    border: 2px dashed #f08820;
+}
