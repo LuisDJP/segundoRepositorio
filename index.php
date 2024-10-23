@@ -47,6 +47,16 @@
     <link rel="stylesheet" href="http://localhost/primeraprueba/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+    <!-- jQuery (necesario para Slick) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
     <script src="https://www.cvmabogados.com.pe/wp-content/themes/RUN4QCZ6C66jHxHAGqds/js/jquery.js"></script>
     <script src="https://www.cvmabogados.com.pe/wp-content/themes/RUN4QCZ6C66jHxHAGqds/js/function.js?v=2.96"></script>
     <script src="https://www.cvmabogados.com.pe/wp-content/themes/RUN4QCZ6C66jHxHAGqds/js/slick.js"></script>
@@ -292,7 +302,158 @@
                 </div>
             </div>
 
-            
+            <div id="container_module_staff">
+                <div class="center">
+                    <div class="container_cat_founders">
+                        <div class="title_staff">
+                            <h3>Testimonios</h3>
+                            <h2>Lo que nuestros clientes expresan</h2>
+                        </div>
+
+                        <div class="group_staff">
+                            <div class="slick-staff">
+                                <div class="column_staff">
+                                    <div class="image_staff">
+                                        <img src="http://localhost/primeraprueba/images/retrato1.jpg" alt="">
+                                    </div>
+                                    <div class="content_staff">
+                                        <p>Nataly Montoya Canta</p>
+                                        <br>
+                                        <span>"Gracias a la asesoría recibida, pude resolver mi caso legal en tiempo récord. Su equipo es altamente profesional."</span>
+                                    </div>
+                                </div>
+
+                                <div class="column_staff">
+                                    <div class="image_staff">
+                                        <img src="http://localhost/primeraprueba/images/retrato1.jpg" alt="">
+                                    </div>
+                                    <div class="content_staff">
+                                        <p>Alfredo Carrión Perez</p>
+                                        <br>
+                                        <span>"El apoyo legal que me brindaron fue invaluable. Me sentí acompañado en todo momento y el resultado fue favorable."</span>
+                                    </div>
+                                </div>
+
+                                <div class="column_staff">
+                                    <div class="image_staff">
+                                        <img src="http://localhost/primeraprueba/images/retrato1.jpg" alt="">
+                                    </div>
+                                    <div class="content_staff">
+                                        <p>Julio Carrión Perez</p>
+                                        <br>
+                                        <span>"Su conocimiento del sistema legal me ayudó a ganar mi caso. Recomiendo sus servicios sin dudarlo."</span>
+                                    </div>
+                                </div>
+
+                                <div class="column_staff">
+                                    <div class="image_staff">
+                                        <img src="http://localhost/primeraprueba/images/retrato1.jpg" alt="">
+                                    </div>
+                                    <div class="content_staff">
+                                        <p>Lucía Fernández</p>
+                                        <br>
+                                        <span>"El equipo fue muy atento y resolvió todas mis dudas. Estoy muy satisfecha con el resultado de mi asesoría."</span>
+                                    </div>
+                                </div>
+
+                                <div class="column_staff">
+                                    <div class="image_staff">
+                                        <img src="http://localhost/primeraprueba/images/retrato1.jpg" alt="">
+                                    </div>
+                                    <div class="content_staff">
+                                        <p>Marco Rodríguez</p>
+                                        <br>
+                                        <span>"Gracias a su intervención, logré resolver un problema legal que me preocupaba mucho. ¡Recomendados al 100%!"</span>
+                                    </div>
+                                </div>
+
+                                <div class="column_staff">
+                                    <div class="image_staff">
+                                        <img src="http://localhost/primeraprueba/images/retrato1.jpg" alt="">
+                                    </div>
+                                    <div class="content_staff">
+                                        <p>Claudia Pérez</p>
+                                        <br>
+                                        <span>"El servicio fue excepcional. Cada miembro del equipo demostró compromiso y profesionalismo. Estoy muy agradecida."</span>
+                                    </div>
+                                </div>
+
+                                <!-- Agrega más testimonios aquí -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container_module_form">
+    <div class="center">
+        <div class="column_form">
+            <div class="row_content_form">
+                <i>Contáctenos:</i>
+            </div>
+            <div class="contact_form">
+                <ul>
+                    <li>
+                        <div class="content_description">
+                            <p>Estamos pendientes de ti</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content_ubication">
+                            <p><i class="ubication"></i>Av. Arequipa 4080, Miraflores</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content_phone">
+                            <i class="phone"></i><a href="tel:(+51) 965 080 929">(+51) 965 080 929</a>
+                        </div>
+                        <div class="content_email">
+                            <a href="mailto:consultas@cvmabogados.com.pe"><i class="email"></i>consultas@cvmabogados.com.pe</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="row_form">
+                <!-- FORMULARIO -->
+                <form action="procesar_formulario.php" method="post" class="contact-form" novalidate>
+                    <p>
+                        <input size="40" class="form-control" placeholder="Nombre y apellido" type="text" name="Nombre_Apellido" required>
+                    </p>
+                    <p>
+                        <input size="40" class="form-control" placeholder="Correo electrónico" type="email" name="Correo" required>
+                    </p>
+                    <p>
+                        <input size="40" class="form-control" placeholder="Celular" type="tel" name="Celular" required>
+                    </p>
+                    <p>
+                        <select class="form-control" name="Consulta" required>
+                            <option value="">Seleccione una consulta</option>
+                            <option value="Derecho Penal">Derecho Penal</option>
+                            <option value="Contrataciones con el Estado">Contrataciones con el Estado</option>
+                            <option value="Derecho Administrativo">Derecho Administrativo</option>
+                            <option value="Derecho Civil">Derecho Civil</option>
+                            <option value="Derecho Constitucional">Derecho Constitucional</option>
+                            <option value="Derecho de Familia">Derecho de Familia</option>
+                            <option value="Derecho de Herencias, Testamentos y Sucesiones">Derecho de Herencias, Testamentos y Sucesiones</option>
+                            <option value="Derecho del Consumidor">Derecho del Consumidor</option>
+                            <option value="Derecho Laboral">Derecho Laboral</option>
+                        </select>
+                    </p>
+                    <p>
+                        <textarea cols="40" rows="10" class="form-control" placeholder="Mensaje" name="Mensaje" required></textarea>
+                    </p>
+                    <p>
+                        <input class="form-control" type="submit" value="Enviar">
+                    </p>
+                </form>
+                <!-- FORMULARIO -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                    
         </section>
     </main>
 </body>
