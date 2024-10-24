@@ -353,6 +353,27 @@ header {
     left: 0;
 }
 
+/* Fondo azul */
+#container_module_pillars:before {
+    content: "";
+    position: absolute;
+    width: 8em;
+    height: 11.7em;
+    top: 0;
+    left: 0;
+    background: url(images/icon-maso.png) no-repeat top center / cover;
+}
+#container_module_pillars:after {
+    content: "";
+    position: absolute;
+    width: 12em;
+    height: 11.7em;
+    top: 0;
+    right: 0;
+    background: url(images/icon-balanza.png) no-repeat top center / cover;
+}
+/* ---------- */
+
 .row_services h2 {
     font: 2.5em / 1em regular;
     color: #f08820;
