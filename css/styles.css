@@ -311,7 +311,7 @@ header {
 #container_module_footer {
     width: 100%;
     background: #1D3447;
-    padding: 4em 0 2em 0;
+    padding: 4em 0 4em 0;
     display: flex; /* Usar flexbox */
     justify-content: center; /* Centrar las columnas horizontalmente */
     gap: 2em; /* Espacio entre las columnas */

@@ -45,6 +45,8 @@
         });
     </script>
     <link rel="stylesheet" href="http://localhost/primeraprueba/css/styles.css">
+
+    <!-- Font Awesome: -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Slick Carousel CSS -->
@@ -211,59 +213,56 @@
                         <span>Eficiencia garantizada</span>
                     </div>
                     <div class="group_services">
-                        <ul>
-                                
-                            <li>
-                                <div class="row_content_services">
-                                    <div class="services_ico">
-                                        <img src="https://www.cvmabogados.com.pe/wp-content/uploads/2023/09/ico_01.png" alt="">
-                                    </div>
-                                    <div class="content_image_services">
-                                                                        <img src="http://localhost/primeraprueba/images/servicio1.jpg" alt="">
-                                        <a href="http://localhost/primeraprueba/Servicios.php/">Consulta ahora</a>
-                                    </div>
-                                    <div class="services_content">
-                                        <h3>Demandas Judiciales</h3>
-                                        <p>"Defendemos tus derechos con pasión y experiencia, ¡tu libertad es nuestra prioridad absoluta en cada caso!"
+                    <ul>
+                        <li>
+                            <div class="row_content_services">
+                                <div class="services_ico">
+                                    <i class="fas fa-gavel" style="font-size: 2em; color: #f08820;"></i> <!-- Ícono para Demandas Judiciales -->
+                                </div>
+                                <div class="content_image_services">
+                                    <img src="http://localhost/primeraprueba/images/servicio1.jpg" alt="">
+                                    <a href="http://localhost/primeraprueba/Servicios.php/">Consulta ahora</a>
+                                </div>
+                                <div class="services_content">
+                                    <h3>Demandas Judiciales</h3>
+                                    <p>"Defendemos tus derechos con pasión y experiencia, ¡tu libertad es nuestra prioridad absoluta en cada caso!"</p>
+                                </div>
+                            </div>
+                        </li>
 
-                                        </p>
-                                    </div>
+                        <li>
+                            <div class="row_content_services">
+                                <div class="services_ico">
+                                    <i class="fas fa-balance-scale" style="font-size: 2em; color: #f08820;"></i> <!-- Ícono para Derecho Civil -->
                                 </div>
-                            </li>
-                                
-                            <li>
-                                <div class="row_content_services">
-                                    <div class="services_ico">
-                                        <img src="https://www.cvmabogados.com.pe/wp-content/uploads/2023/09/derechos-civiles-1.png" alt="">
-                                    </div>
-                                    <div class="content_image_services">
-                                                                        <img src="http://localhost/primeraprueba/images/servicio1.jpg" alt="">
-                                        <a href="http://localhost/primeraprueba/Servicios.php/">Consulta ahora</a>
-                                    </div>
-                                    <div class="services_content">
-                                        <h3>Derecho Civil</h3>
-                                        <p>"Resolvemos conflictos civiles con soluciones legales eficaces, protegiendo tus intereses y tu tranquilidad."</p>
-                                    </div>
+                                <div class="content_image_services">
+                                    <img src="http://localhost/primeraprueba/images/servicio1.jpg" alt="">
+                                    <a href="http://localhost/primeraprueba/Servicios.php/">Consulta ahora</a>
                                 </div>
-                            </li>
-                                
-                            <li>
-                                <div class="row_content_services">
-                                    <div class="services_ico">
-                                        <img src="https://www.cvmabogados.com.pe/wp-content/uploads/2023/09/herencia-1.png" alt="">
-                                    </div>
-                                    <div class="content_image_services">
-                                                                        <img src="http://localhost/primeraprueba/images/servicio1.jpg" alt="">
-                                        <a href="http://localhost/primeraprueba/Servicios.php/">Consulta ahora</a>
-                                    </div>
-                                    <div class="services_content">
-                                        <h3>Derecho de Herencias, Testamentos y Sucesiones</h3>
-                                        <p>"Maximizamos tu legado familiar con estrategias expertas de sucesiones y protección patrimonial, ¡herencias seguras garantizadas!"</p>
-                                    </div>
+                                <div class="services_content">
+                                    <h3>Derecho Civil</h3>
+                                    <p>"Resolvemos conflictos civiles con soluciones legales eficaces, protegiendo tus intereses y tu tranquilidad."</p>
                                 </div>
-                            </li>
-                                              
-                        </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="row_content_services">
+                                <div class="services_ico">
+                                    <i class="fas fa-scroll" style="font-size: 2em; color: #f08820;"></i> <!-- Ícono para Derecho de Herencias -->
+                                </div>
+                                <div class="content_image_services">
+                                    <img src="http://localhost/primeraprueba/images/servicio1.jpg" alt="">
+                                    <a href="http://localhost/primeraprueba/Servicios.php/">Consulta ahora</a>
+                                </div>
+                                <div class="services_content">
+                                    <h3>Derecho de Herencias, Testamentos y Sucesiones</h3>
+                                    <p>"Maximizamos tu legado familiar con estrategias expertas de sucesiones y protección patrimonial, ¡herencias seguras garantizadas!"</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
                     </div>
                 </div>
             </div>
@@ -397,22 +396,25 @@
                             <ul>
                                 <li>
                                     <div class="content_ubication">
-                                        <p><i class="ubication"></i>Av. Arequipa 4080, Miraflores</p>
+                                        <p><i class="fas fa-map-marker-alt" style="font-size: 1.5em; color: #f08820; margin-right: 10px;"></i> Av. Arequipa 4080, Miraflores</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="content_phone">
-                                        <i class="phone"></i><a href="tel:(+51) 965 080 929">(+51) 965 080 929</a>
+                                        <i class="fas fa-phone-alt" style="font-size: 1.5em; color: #f08820; margin-right: 10px;"></i>
+                                        <a href="tel:(+51) 965 080 929">(+51) 965 080 929</a>
                                     </div>
-                                    
                                 </li>
                                 <li>
-                                    <div class="content_email">
-                                        <a href="mailto:consultas@cvmabogados.com.pe"><i class="email"></i>consultas@djpabogados.com</a>
+                                    <div class="content_phone">
+                                        <i class="fas fa-envelope" style="font-size: 1.5em; color: #f08820; margin-right: 10px;"></i>
+                                        <a href="consultas@cvmabogados.com.pe">consultas@cvmabogados.com.pe</a>
                                     </div>
                                 </li>
+                                
                             </ul>
                         </div>
+
                         <div class="row_form">
                             <!-- FORMULARIO -->
                             <form action="procesar_formulario.php" method="post" class="contact-form" novalidate>
@@ -462,19 +464,21 @@
             <li>
                 <h3>Sobre Nosotros</h3>
                 <p>Somos una empresa comprometida con ofrecerte los mejores servicios legales.</p>
+                <br>
             </li>
             <li>
                 <h3>Contacto</h3>
                 <p><i class="phone"></i><a href="tel:01 555 5555">(01) 555 5555</a></p>
                 <p><i class="phone"></i><a href="tel:+51965080929">(+51) 965 080 929</a></p>
                 <p><i class="email"></i><a href="mailto:consultas@djpabogados.com.pe">consultas@djpabogados.com.pe</a></p>
+                <br>
             </li>
             <li>
                 <h3>Redes Sociales</h3>
                 <p>
                     <a href="#"><i class="fab fa-facebook"></i> Facebook</a><br>
                     <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br>
-                    <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a><br> 
                 </p>
             </li>
         </ul>
