@@ -53,6 +53,43 @@ header {
     color: #f08820 !important; /* Color al pasar el mouse */
 }
 
+/* Estilos para el menú móvil */
+#menu-mobile {
+    display: none; /* Oculto por defecto */
+    background-color: #18426C;
+    position: fixed;
+    top: 6.9em;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    padding: 2em;
+    height: 100%;
+}
+
+#menu-mobile ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-mobile ul li {
+    margin-bottom: 1em;
+}
+
+#menu-mobile ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Estilos del ícono de menú */
+.icon-menu {
+    font-size: 2em;
+    cursor: pointer;
+}
+
 /* Estilos para el botón "CONOCE MÁS" */
 .btn_us a {
     background-color: #f08820; /* Color de fondo del botón */

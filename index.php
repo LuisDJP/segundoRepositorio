@@ -77,6 +77,7 @@
             BaseAjax: "https://www.cvmabogados.com.pe/wp-admin/admin-ajax.php",
         }
     </script>
+    
 </head>
 
 <body>
@@ -123,14 +124,18 @@
                     <ul id="menu-menu-1" class="menu">
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="http://localhost/primeraprueba/">Inicio</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="http://localhost/primeraprueba/Nosotros.php">Nosotros</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98"><a href="http://localhost/primeraprueba/Servicios.php/">Servicios</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="http://localhost/primeraprueba/Servicios.php/">Servicios</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a href="http://localhost/primeraprueba/Equipo.php">Equipo</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="http://localhost/primeraprueba/Contacto.php">Contacto</a></li>
                     </ul>		
                 </div>
             </div>
         </div>
+
+
     </header>
+
+    
 
     <main>
         <div class="box-support">

@@ -123,7 +123,7 @@
                     <ul id="menu-menu-1" class="menu">
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="http://localhost/primeraprueba/">Inicio</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="http://localhost/primeraprueba/Nosotros.php">Nosotros</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98"><a href="http://localhost/primeraprueba/Servicios.php/">Servicios</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="http://localhost/primeraprueba/Servicios.php/">Servicios</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a href="http://localhost/primeraprueba/Equipo.php">Equipo</a></li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="http://localhost/primeraprueba/Contacto.php">Contacto</a></li>
                     </ul>		
@@ -133,53 +133,6 @@
     </header>
 
     <main>
-        <div class="box-support">
-            <div class="support" style="display: block;">
-                <div class="button-support-close"></div>
-                <div class="title-support-close"></div>
-                <div class="link-support">
-                    <ul>
-                        <li>
-                            <a href="https://wa.me/51965080929?text=Hola, quiero información del servicio 1 de Deudas Judiciales Perú." data-phone="51965080929" data-phone-presentation="999995719" data-hrl="https://www.cvmabogados.com.pe/servicios/derecho-de-herencias-testamentos-y-sucesiones/" target="_blank">
-                                <div><img src="http://localhost/primeraprueba/images/logoDeud.png" alt=""></div>
-                                <div>
-                                    <h3>Servicio 1</h3>
-                                    <span>Disponible</span>
-                                </div>
-                            </a>
-                        </li>	
-                        <li>
-                            <a href="https://wa.me/51965080929?text=Hola, quiero información del servicio 2 de Deudas Judiciales Perú." data-phone="51957141671" data-phone-presentation="957141671" data-hrl="https://www.cvmabogados.com.pe/servicios/derecho-penal/" target="_blank">
-                                <div><img src="http://localhost/primeraprueba/images/logoDeud.png" alt=""></div>
-                                <div>
-                                    <h3>Servicio 2</h3>
-                                    <span>Disponible</span>
-                                </div>
-                            </a>
-                        </li>	
-                        <li>
-                            <a href="https://wa.me/51965080929?text=Hola, quiero información del servicio 3 de Deudas Judiciales Perú." data-phone="51910640039" data-phone-presentation="910640039" data-hrl="#" target="_blank">
-                                <div><img src="http://localhost/primeraprueba/images/logoDeud.png" alt=""></div>
-                                <div>
-                                    <h3>Servicio 3</h3>
-                                    <span>Disponible</span>
-                                </div>
-                            </a>
-                        </li>	
-                        <li>
-                            <a href="https://wa.me/51965080929?text=Hola, quiero información del servicio 4 de Deudas Judiciales Perú." data-phone="51927193307" data-phone-presentation="927193307" data-hrl="https://www.cvmabogados.com.pe/servicios/derecho-civil/" target="_blank">
-                                <div><img src="http://localhost/primeraprueba/images/logoDeud.png" alt=""></div>
-                                <div>
-                                    <h3>Servicio 4</h3>
-                                    <span>Disponible</span>
-                                </div>
-                            </a>
-                        </li>		
-                    </ul>
-                </div>
-            </div>
-            <div class="button-support">CONSULTAS URGENTES</div>
-        </div>
         
         <section>
             <div id="container_module_slider">
