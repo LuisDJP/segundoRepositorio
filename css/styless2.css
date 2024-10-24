@@ -1,0 +1,124 @@
+ /* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif; /* Cambia la fuente según prefieras */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #f8f8f8; /* Color de fondo del encabezado */
+    padding: 20px 0;
+}
+
+.column_rightUs h3:before {
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 3px;
+    background: #f08820;
+    bottom: 1em;
+    left: 0;
+}
+
+/* Estilos para el logo */
+.column_logo img {
+    width: 130px; /* Ajusta el tamaño del logo aquí */
+}
+
+.column_rightUs h2 {
+    color: #f08820; /* Cambia este valor por el color que desees */
+}
+
+.column_rightUs h3::after {
+    content: #f08820; /* Esto eliminará cualquier contenido generado, como una línea */
+}
+
+/* Estilos del menú */
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline-block; /* Cambia a block si prefieres un menú vertical */
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
+}
+
+.menu-item a {
+    color: #333 !important; /* Cambia este color por el que desees */
+}
+
+.menu-item a:hover {
+    color: #f08820 !important; /* Color al pasar el mouse */
+}
+ 
+ 
+ /* Ventana servicios */
+ .row_services h2 {
+    font: 2.5em / 1em regular;
+    color: #f08820;
+    padding-bottom: 0.5em;
+}
+
+.row_services span {
+    font: 1.2em / 1em regular;
+    color: #333;
+    position: relative;
+}
+
+.row_services span:before {
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 3px;
+    background: #f08820;
+    bottom: -1em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+ #container_module_services {
+    width: 100%;
+    background: #fff;
+}
+
+.services_content h3 {
+    font: 1.2em / 1em regular;
+    color: #1D3447;
+    padding-bottom: 0.75em;
+}
+
+.services_content p {
+    font: 0.85em / 1.5em regular;
+    color: #1D3447;
+}
+
+/* Foroter */
+
+#container_module_footer {
+    width: 100%;
+    background: #1D3447;
+    padding: 4em 0 4em 0;
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar las columnas horizontalmente */
+    gap: 2em; /* Espacio entre las columnas */
+}
+
+.column_menu_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar el contenido dentro de cada columna */
+    color: white;
+}
+
+.column_menu_footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column_menu_footer a {
+    margin-bottom: 1em;
+    color: #f08820;
+}

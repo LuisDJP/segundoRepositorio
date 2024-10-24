@@ -271,7 +271,7 @@
             <img src="http://localhost/primeraprueba/images/imgNosotros5.jpg" alt="">
             <div class="content_phare">
                 <p>Servicio de alta calidad destinado a resolver los problemas, inquietudes y necesidades según el derecho, la justicia y la verdad.</p>
-                <a href="#">CONTÁCTANOS</a>
+                <a href="http://localhost/primeraprueba/Contacto.php">CONTÁCTANOS</a>
             </div>
 	    </div>
         </section>
