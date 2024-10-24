@@ -122,3 +122,59 @@ header {
     margin-bottom: 1em;
     color: #f08820;
 }
+
+/* Ventana Equipo */
+.group_services ul li:before {
+    content: "";
+    position: absolute;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    top: 0;
+    left: 0;
+    border: 2px dashed #f08820;
+}
+
+.content_image_services a {   /* Para el botón */
+    font: 1em / 1em light;
+    color: #fff;
+    background: #f08820;
+    padding: 1.5em 3em;
+    display: table;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    position: absolute;
+}                
+
+.services_ico {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.services_ico img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content_image_services {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: all .6s;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.content_phare a {
+    font: 1em / 1em light;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.75em 1.5em;
+}

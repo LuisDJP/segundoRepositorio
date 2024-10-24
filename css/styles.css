@@ -394,4 +394,7 @@ header {
 }
 
 
- 
+.row_contact {
+    border-top: 1px solid #f08820;
+    border-bottom: 1px solid #f08820;
+}
