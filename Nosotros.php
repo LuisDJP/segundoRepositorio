@@ -249,10 +249,10 @@
                     <li>
                         <h3>Redes Sociales</h3>
                         <p>
-                            <a href="#"><i class="fab fa-facebook"></i> Facebook</a><br>
-                            <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br>
-                            <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a><br> 
-                        </p>
+                            <a href="https://www.facebook.com/p/Deudas-Judiciales-Peru-100095259427949/?locale=es_LA"><i class="fab fa-facebook"></i> Facebook</a><br>
+                            <a href="https://www.instagram.com/deudasjudiciales_peru/"><i class="fab fa-instagram"></i> Instagram</a><br>
+                            <a href="https://pe.linkedin.com/company/deudas-judiciales-per%C3%BA"><i class="fab fa-linkedin"></i> LinkedIn</a><br> 
+                       </p>
                     </li>
                 </ul>
             </div>

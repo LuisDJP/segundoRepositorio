@@ -56,7 +56,7 @@ header {
 /* Estilos para el menú móvil */
 #menu-mobile {
     display: none; /* Oculto por defecto */
-    background-color: #18426C;
+    background-color: #616160;
     position: fixed;
     top: 6.9em;
     left: 0;
@@ -82,6 +82,28 @@ header {
 
 li {
     list-style: none;
+}
+
+@media screen and (max-width: 760px) {
+    .icon-menu span {
+        width: 100%;
+        height: 3px;
+        background: #616160;
+        margin: 1.5px 0;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .menu_principals ul li a {
+        font: 1.2em / 1em light;
+        color: #fff;
+        background: #a4a4a4;
+        padding: 0.5em 0;
+        display: flex;
+        padding-left: 1em;
+        margin: 1px 0;
+        text-transform: uppercase;
+    }
 }
 
 /* Estilos del ícono de menú */
@@ -126,6 +148,7 @@ li {
     height: auto; /* Mantener proporciones */
 }
 
+/*botón menú*/
 .row_search a {
     background-color: #f08820; /* Cambia este color por el que desees */
     color: #fff; /* Color del texto */
@@ -177,6 +200,12 @@ li {
     border: 2px dashed #f08820;
 }
 
+/* fondo de nosotros */
+#container_module_services {
+    width: 100%;
+    background: #616160;
+}
+
 /* íconos de redes sociales de inicio */
 .row_box ul li:nth-child(1) h2:before {
     content: "";
@@ -186,8 +215,16 @@ li {
     content: "";
 }
 
+.row_box ul li:nth-child(1) {
+    background: #616160;
+}
+
 .row_box ul li:nth-child(2) {
     background: #f08820;
+}
+
+.row_box ul li:nth-child(3) {
+    background: #616160;
 }
 
 .column_box a {
@@ -253,6 +290,13 @@ li {
     margin-top: -2em;
     position: relative;
 }
+
+#container_module_staff {
+    width: 100%;
+    padding-top: 2em;
+    background: linear-gradient(to bottom, #616160 93.5%, transparent 0);
+    margin-bottom: 2em;
+}
 /* Flechas del Carrusel */
 .slick-prev:before {
     content: '←';
@@ -308,6 +352,13 @@ li {
 
 /* Formulario */
 
+#container_module_form {
+    width: 100%;
+    background: #616160 url(images/fondo-contact.jpg) no-repeat top center / cover;
+    padding: 3em 0;
+    margin-bottom: 1em;
+}
+
 .row_content_form i {
     font-size: 2em; /* Aumenta el tamaño del texto */
     font-weight: normal; /* Mantén el peso regular */
@@ -343,11 +394,13 @@ li {
     margin: 0 auto;
 }
 
+
+
 /* Foroter */
 
 #container_module_footer {
     width: 100%;
-    background: #1D3447;
+    background: #616160;
     padding: 4em 0 4em 0;
     display: flex; /* Usar flexbox */
     justify-content: center; /* Centrar las columnas horizontalmente */
@@ -391,6 +444,13 @@ li {
 }
 
 /* Fondo azul */
+#container_module_pillars {
+    width: 100%;
+    background: #616160;
+    padding: 3em 0;
+    position: relative;
+}
+
 #container_module_pillars:before {
     content: "";
     position: absolute;
@@ -419,7 +479,7 @@ li {
 
 .row_services span {
     font: 1.2em / 1em regular;
-    color: #1D3447;
+    color: #fff;
     position: relative;
 }
     /* botón contacto */
@@ -435,3 +495,24 @@ li {
     border-top: 1px solid #f08820;
     border-bottom: 1px solid #f08820;
 }
+
+
+/* Estilos para la barra de scroll en navegadores modernos */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de scroll vertical */
+    height: 10px; /* Altura de la barra de scroll horizontal */
+}
+
+::-webkit-scrollbar-track {
+    background: #f8f8f8; /* Color de fondo de la barra */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #616160; /* Color de la barra */
+    border-radius: 5px; /* Bordes redondeados de la barra */
+    border: 2px solid #f8f8f8; /* Borde alrededor de la barra (opcional) */
+}
+
+
+
+ /*Plomo de deudas=  #616160 */

@@ -158,9 +158,9 @@
                         </ul>
                     </div>
                     <div class="social_contact">
-                        <a href="https://www.facebook.com/CVMAbogados" target="_blank"><img src="https://www.cvmabogados.com.pe/wp-content/themes/RUN4QCZ6C66jHxHAGqds/images/cvm-abogados-asociados-fb01.png" alt=""></a>
-                        <a href="https://www.linkedin.com/company/cvm-abogados/" target="_blank"><img src="https://www.cvmabogados.com.pe/wp-content/themes/RUN4QCZ6C66jHxHAGqds/images/cvm-abogados-linkeding-in01.png" alt=""></a>
-                        <a href="https://www.instagram.com/cvm.abogados/" target="_blank"><img src="https://www.cvmabogados.com.pe/wp-content/themes/RUN4QCZ6C66jHxHAGqds/images/cvm-abogados-asociados-instagram01.png" alt=""></a>
+                        <a href="https://pe.linkedin.com/company/deudas-judiciales-per%C3%BA" target="_blank"><img src="https://www.cvmabogados.com.pe/wp-content/themes/RUN4QCZ6C66jHxHAGqds/images/cvm-abogados-asociados-fb01.png" alt=""></a>
+                        <a href="https://pe.linkedin.com/company/deudas-judiciales-per%C3%BA" target="_blank"><img src="https://www.cvmabogados.com.pe/wp-content/themes/RUN4QCZ6C66jHxHAGqds/images/cvm-abogados-linkeding-in01.png" alt=""></a>
+                        <a href="https://www.instagram.com/deudasjudiciales_peru/" target="_blank"><img src="https://www.cvmabogados.com.pe/wp-content/themes/RUN4QCZ6C66jHxHAGqds/images/cvm-abogados-asociados-instagram01.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -248,9 +248,9 @@
                         <li>
                             <h3>Redes Sociales</h3>
                             <p>
-                                <a href="#"><i class="fab fa-facebook"></i> Facebook</a><br>
-                                <a href="#"><i class="fab fa-instagram"></i> Instagram</a><br>
-                                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a><br> 
+                                <a href="https://www.facebook.com/p/Deudas-Judiciales-Peru-100095259427949/?locale=es_LA"><i class="fab fa-facebook"></i> Facebook</a><br>
+                                <a href="https://www.instagram.com/deudasjudiciales_peru/"><i class="fab fa-instagram"></i> Instagram</a><br>
+                                <a href="https://pe.linkedin.com/company/deudas-judiciales-per%C3%BA"><i class="fab fa-linkedin"></i> LinkedIn</a><br> 
                             </p>
                         </li>
                     </ul>
